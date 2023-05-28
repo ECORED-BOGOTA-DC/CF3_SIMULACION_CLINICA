@@ -17,3 +17,56 @@
 
   100%
     transform: translateY(0px)
+.contenedor-principal
+  .seccion-principal
+    .curso-main-container
+      .banner-interno__fondo
+        background-image: url("/img/img-bg-top.svg") !important
+        background-size: cover
+      .banner-interno__titulo
+        padding-top: 5.3rem !important
+        padding-bottom: 5.3rem !important
+.barra-avance--open
+  .barra-avance__boton--regresar
+    i
+      color: #111e61
+    &:hover
+      i, span
+        color: white !important
+@media (min-width: 1400px)
+  .banner-principal
+    .banner-principal__row
+      justify-content: space-around
+      .banner-principal__img
+        padding-right: 0 !important
+        width: 55%
+        img
+          max-width: 537px
+          margin-left: auto
+          margin-right: auto
+.img-text-edit
+  align-content: center
+  .container-bg
+    background-color: #63F2E4
+    padding: 1rem 4rem
+    margin-top: auto
+    margin-bottom: auto
+    p
+      max-width: 505px
+      margin-bottom: 0
+  img
+    margin-left: -22%
+  @media (max-width: 1400px)
+    .container-bg
+      max-width: 975px
+      padding: 1rem 4rem
+    img
+      margin-left: -17%
+  @media (max-width: 1200px)
+    img
+      margin-left: auto
+      margin-right: auto
+      margin-bottom: 1.5rem
+    .container-bg
+      p
+        max-width: 100%

@@ -1,19 +1,12 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    componenteFormativo:
+      'Resultados del método de enseñanza y aprendizaje en simulación clínica',
+    descripcionCurso:
+      'Los modelos para la formación en ciencias de la salud encontrados en la actualidad con la implementación de la práctica gracias a los ambientes simulados dan respuesta a la necesidad de la innovación y la transformación digital, que, como herramientas, se han convertido en estrategias que motivan el desarrollo en las actividades clínicas, evaluando las competencias y resultados para cada programa.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -31,28 +24,27 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Marco en la evaluación para simulación clínica',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo:
+              'Buenas prácticas en la aplicación de ambientes en simulación clínica',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo:
+              'Impacto de la enseñanza y el aprendizaje de simulación clínica',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Evidencia científica y el futuro de la simulación clínica',
+            hash: 't_1_3',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
