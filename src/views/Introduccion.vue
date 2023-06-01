@@ -8,7 +8,7 @@
         span
           i.fas.fa-info.text-white
       h1 Introducción
-    p.mb-5 Para iniciar el desarrollo temático y conceptual de este componente formativo, es importante tener un contexto sobre lo que se tratará en él; por tal motivo, se presenta una breve introducción a través del siguiente video, el cual lo enruta en este aprendizaje:
+    p.mb-5(data-aos="fade-right") Para iniciar el desarrollo temático y conceptual de este componente formativo, es importante tener un contexto sobre lo que se tratará en él; por tal motivo, se presenta una breve introducción a través del siguiente video, el cual lo enruta en este aprendizaje:
 
     figure.mb-5(data-aos="fade-left")
       .video
