@@ -21,8 +21,9 @@
   .seccion-principal
     .curso-main-container
       .banner-interno__fondo
-        background-image: url("/img/img-bg-top.svg") !important
+        background-image: url("../assets/curso/portada/img-bg-top.svg") !important
         background-size: cover
+        background-position: left
       .banner-interno__titulo
         padding-top: 5.3rem !important
         padding-bottom: 5.3rem !important
@@ -70,3 +71,12 @@
     .container-bg
       p
         max-width: 100%
+        
+.img-maxwidth-movil-1
+  max-width: 592px
+  @media (max-width: 991px)
+    max-width: 450px
+
+@media (max-width: 991px)
+  .bloque-texto-a:before
+    background-color: transparent !important
