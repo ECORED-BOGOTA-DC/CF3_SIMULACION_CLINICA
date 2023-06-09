@@ -257,10 +257,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },
@@ -268,10 +267,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Efraín Gómez Matamoros',
+          cargo: 'Experto Temático',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Distrito Capital - Centro de Formación de Talento Humano en Salud',
+        },
+        {
+          nombre: 'Claudia Milena Hernández Naranjo',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial.',
+        },
+        {
+          nombre: 'Álix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura.',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrector de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },
@@ -279,22 +299,29 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Adriana Marcela Suarez Eljure',
           cargo: 'Diseñador web',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animador y Producción audiovisual',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animador y Producción audiovisual',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },
@@ -302,22 +329,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
+          nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Validación de contenidos accesibles',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },

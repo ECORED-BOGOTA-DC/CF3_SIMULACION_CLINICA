@@ -68,7 +68,7 @@
         p(data-aos="fade-right") Al terminar el evento simulado, es importante que se genere el proceso de evaluación, que no solo comprende la estrategia del feedback y la etapa de debriefing, sino que también procura valorar aspectos como la orientación que brinda el instructor o facilitador y el ambiente de simulación per se.
           br
           |En la siguiente figura, se aprecian los criterios a tener en cuenta para evaluar una simulación clínica:
-      img.col-xl-6.order-1.order-xl-2.img-maxwidth-movil-1(src="@/assets/curso/temas/tema1/img-1.png" style="max-width: 592px" alt="muestra los criterios a tener en cuenta para evaluar una simulación clínica al finalizar el evento simulado")
+      img.col-xl-6.order-1.order-xl-2.img-maxwidth-movil-1(src="@/assets/curso/temas/tema1/img-1.png" alt="muestra los criterios a tener en cuenta para evaluar una simulación clínica al finalizar el evento simulado")
 
     .tarjeta.p-4.mb-5(style="background-color: #F4F4FF; overflow: hidden;")
       .col-lg-11.mx-auto
@@ -299,7 +299,7 @@
       |A continuación, se dan las siguientes recomendaciones para el estándar de integridad profesional:
 
     .col-lg-10.mx-auto.d-flex.flex-wrap.mb-5
-      img.col-md-4.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/img-14.jpg" style="max-width: 295px" data-aos="fade-right" alt="Imagen que resalta la importancia de la integridad profesional en el desarrollo de la práctica simulada")
+      img.col-md-4.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-14.jpg" style="max-width: 295px" data-aos="fade-right" alt="Imagen que resalta la importancia de la integridad profesional en el desarrollo de la práctica simulada")
       .col-md-8.ps-md-4(data-aos="fade-left")
         p.fw-bold -	Fomentar los atributos de la integridad profesional
         p Se centra en aquellos valores y principios que conforman la integridad profesional para el desarrollo de la práctica simulada. En este contexto, se aconseja que el participante promueva actitudes y comportamientos dirigidos a ser integral.
@@ -394,7 +394,7 @@
       h2#t_1_2 1.2 Impacto de la enseñanza y el aprendizaje en la simulación clínica
     
     .col-lg-10.mx-auto.d-flex.flex-wrap.mb-5
-      img.col-md-4.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/img-14.jpg" style="max-width: 295px" data-aos="fade-right" alt="La imagen muestra a un estudiante de medicina utilizando un simulador médico avanzado para practicar habilidades y aplicar conocimientos adquiridos")
+      img.col-md-4.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-14.jpg" style="max-width: 295px" data-aos="fade-right" alt="La imagen muestra a un estudiante de medicina utilizando un simulador médico avanzado para practicar habilidades y aplicar conocimientos adquiridos")
       p.col-md-8.ps-md-4(data-aos="fade-left") Fomentar la confianza en los procesos de formación, de acuerdo con las competencias requeridas en los campos de la salud, genera, además de su desarrollo en habilidades, la destreza en la aplicación de los conocimientos básicos y las técnicas adquiridas al vivir las experiencias simuladas. Los simuladores deben impactar los procesos formativos de tal manera que  proporcionen al aprendiz una experiencia lo más cercana a la realidad, logrando, de esta manera, enfrentarse a los desafíos para dar solución a los eventos clínicos presentados en cada paciente en la vida real.
     p.mb-5(data-aos="fade-right") Cuando el aprendiz se logra situar en el contexto clínico en el que en muchas situaciones o estudios de casos presenta obstáculos, usar ambientes simulados le brinda la seguridad necesaria que le permite aprender y, a la vez, aplicar los conocimientos teóricos encontrados en las competencias básicas de cada programa de formación, como:
 
@@ -437,8 +437,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.text-white.mb-1 Médicos aprenden con simuladores
-              p.text-white.text-small
+              h3.mb-1(style="color: #262626") Médicos aprenden con simuladores
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=us3rhmd2r1o&t=91s" target="_blank")
                 span Ver
@@ -452,7 +451,7 @@
     p.mb-5(data-aos="fade-right") Todas las experiencias basadas en la simulación han permitido generar reflexiones, cuestionamientos y conclusiones acerca de la práctica clínica. De esta manera, se ha demostrado que la simulación clínica permite aumentar el conocimiento teórico-práctico, las destrezas y habilidades técnicas, además de la autoconfianza, el buen rendimiento, la gestión del riesgo y la seguridad del paciente, proceso en el cual se destaca la evaluación continua de los procesos enfocados a la mejora de los diferentes escenarios de cada programa que forma talento humano en salud.
 
     .col-lg-10.mx-auto.d-flex.flex-wrap.mb-5
-      img.col-md-4.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/img-24.svg" style="max-width: 295px" data-aos="fade-right" alt="Imagen representativa de la simulación clínica en acción")
+      img.col-md-4.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-24.svg" style="max-width: 295px" data-aos="fade-right" alt="Imagen representativa de la simulación clínica en acción")
       p.col-md-8.ps-md-4(data-aos="fade-left") Todas las experiencias basadas en la simulación han permitido generar reflexiones, cuestionamientos y conclusiones acerca de la práctica clínica. De esta manera, se ha demostrado que la simulación clínica permite aumentar el conocimiento teórico-práctico, las destrezas y habilidades técnicas, además de la autoconfianza, el buen rendimiento, la gestión del riesgo y la seguridad del paciente, proceso en el cual se destaca la evaluación continua de los procesos enfocados a la mejora de los diferentes escenarios de cada programa que forma talento humano en salud. 
 
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(0deg, rgba(99,242,228,1) 0%, rgba(71,71,255,1) 100%);")
@@ -462,8 +461,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.text-white.mb-1  Centro de Simulación Clínica Universidad Javeriana 
-              p.text-white.text-small
+              h3.mb-1(style="color: #262626")  Centro de Simulación Clínica Universidad Javeriana 
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=1NSTsn1bvs4" target="_blank")
                 span Ver
@@ -476,8 +474,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.text-white.mb-1 Centro de Simulación Clínica de Barranquilla
-              p.text-white.text-small
+              h3.mb-1(style="color: #262626") Centro de Simulación Clínica de Barranquilla
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=OCnJlsR8S94" target="_blank")
                 span Ver
@@ -490,8 +487,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.text-white.mb-1 Unicauca Simulación Clínica
-              p.text-white.text-small
+              h3.mb-1(style="color: #262626") Unicauca Simulación Clínica
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=48MhnQkclnA" target="_blank")
                 span Ver
@@ -504,8 +500,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.text-white.mb-1 Laboratorio de Simulación Facultad de Enfermería, UNAL Bogotá
-              p.text-white.text-small
+              h3.mb-1(style="color: #262626") Laboratorio de Simulación Facultad de Enfermería, UNAL Bogotá
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=o0YMDo1qjk0&t=76s" target="_blank")
                 span Ver
@@ -518,8 +513,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.text-white.mb-1 Laboratorio de Simulación Clínica Pasto
-              p.text-white.text-small
+              h3.mb-1(style="color: #262626") Laboratorio de Simulación Clínica Pasto
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=zhCW9FpgCK8" target="_blank")
                 span Ver
