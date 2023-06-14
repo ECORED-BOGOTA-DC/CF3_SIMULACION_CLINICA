@@ -216,7 +216,7 @@
           .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
             p Los resultados de aprendizaje deben ser congruentes con la misión de la institución y el programa formativo. Además, tienen que ser orientados todo el tiempo por los objetivos de aprendizaje a lo largo de todo el escenario simulado. 
 
-      .py-3.py-md-4(titulo="Construir objetivos S.M.A.R.T")
+      .py-3.py-md-4(titulo="Construir objetivos S.M.A.R.T.")
         .align-items-center.row.col-lg-10.mx-auto(titulo="<em>Debriefing</em>")
           .col-md-5.mb-4.mb-md-auto.mx-auto
             figure

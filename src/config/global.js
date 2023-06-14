@@ -227,7 +227,7 @@ export default {
     {
       referencia:
         'Naval Air Station Fort Lauderdale Museum. (s. f.). <em>The Link Trainer Flight Simulator.</em>',
-      link: 'https://www.nasflmuseum.com/link-trainer.htm',
+      link: 'https://www.nasflmuseum.com/link-trainer.html',
     },
     {
       referencia:
@@ -277,6 +277,11 @@ export default {
           nombre: 'Claudia Milena Hernández Naranjo',
           cargo: 'Diseñadora Instruccional',
           centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Álix Cecilia Chinchilla Rueda',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
