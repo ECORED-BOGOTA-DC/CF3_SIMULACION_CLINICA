@@ -149,7 +149,7 @@ export default {
     {
       termino: 'Normativa',
       significado:
-        'un conjunto de normas y reglas que tiene como finalidad regular y asegurar las cantidades y características en la reproducción o servicio de los bienes de consumo entre personas físicas y/o jurídicas.',
+        'un conjunto de normas y reglas que tiene como finalidad regular y asegurar las cantidades y características en la reproducción o servicio de los bienes de consumo entre personas físicas o jurídicas.',
     },
     {
       termino: 'Observación',

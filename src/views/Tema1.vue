@@ -55,22 +55,22 @@
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.col-lg-9.offset-lg-1(style="background-color: #13C4FF")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-          h2.mb-0(style="color: #2C04BF") Antes de la simulación se realiza el prebriefing
+          h2.mb-0(style="color: #2C04BF") Antes de la simulación se realiza el <em>prebriefing</em>
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p(data-aos="fade-left") En el cual se brinda la información y los antecedentes necesarios para el desarrollo del ambiente; en este punto, también se distribuyen los roles y actividades que deben desarrollarse.
     
-    p.mb-5(data-aos="fade-right") Cuando la simulación inicia, la tarea del instructor o facilitador es conducir el evento clínico, observar y consignar las acciones de los participantes (aprendices), manipular el simulador según la intención de la formación. También, los aprendices pueden encontrarse con ruidos o señales, que son aspectos que aparecen durante el desarrollo de la práctica y propenden a orientar y redirigir a los aprendices con la finalidad de llegar a que experimenten una situación cercana a la realidad. Estos pueden ser estímulos auditivos, visuales u olfativos, o también un comentario, pregunta o pista del instructor y/o simulador. De esta manera, se procura controlar el ambiente de simulación para el logro efectivo del aprendizaje. 
+    p.mb-5(data-aos="fade-right") Cuando la simulación inicia, la tarea del instructor o facilitador es conducir el evento clínico, observar y consignar las acciones de los participantes (aprendices), manipular el simulador según la intención de la formación. También, los aprendices pueden encontrarse con ruidos o señales, que son aspectos que aparecen durante el desarrollo de la práctica y propenden a orientar y redirigir a los aprendices con la finalidad de llegar a que experimenten una situación cercana a la realidad. Estos pueden ser estímulos auditivos, visuales u olfativos, o también un comentario, pregunta o pista del instructor o simulador. De esta manera, se procura controlar el ambiente de simulación para el logro efectivo del aprendizaje. 
 
 
     .d-flex.flex-wrap.flex-xl-nowrap.mb-5.img-text-edit
       .container-bg.col-12.col-xl-9.order-2.order-xl-1
-        p(data-aos="fade-right") Al terminar el evento simulado, es importante que se genere el proceso de evaluación, que no solo comprende la estrategia del feedback y la etapa de debriefing, sino que también procura valorar aspectos como la orientación que brinda el instructor o facilitador y el ambiente de simulación per se.
+        p(data-aos="fade-right") Al terminar el evento simulado, es importante que se genere el proceso de evaluación, que no solo comprende la estrategia del <em>feedback</em> y la etapa de <em>debriefing</em>, sino que también procura valorar aspectos como la orientación que brinda el instructor o facilitador y el ambiente de simulación <em>per se</em>.
           br
           |En la siguiente figura, se aprecian los criterios a tener en cuenta para evaluar una simulación clínica:
       img.col-xl-6.order-1.order-xl-2.img-maxwidth-movil-1(src="@/assets/curso/temas/tema1/img-1.png" alt="muestra los criterios a tener en cuenta para evaluar una simulación clínica al finalizar el evento simulado")
 
-    .tarjeta.p-4.mb-5(style="background-color: #F4F4FF; overflow: hidden;")
+    .tarjeta.p-4.mb-5(style="background: linear-gradient(0deg, rgba(71, 71, 255, 4%) 5%, white 10%,  white 90%, rgba(71, 71, 255, 4%) 96%); overflow: hidden;")
       .col-lg-11.mx-auto
         .titulo-sexto.color-acento-botones
           h5.text-small Figura 1
@@ -83,11 +83,11 @@
 
     .d-flex.justify-content-center
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/manual_de_simulacion_clinica_SLACIP.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/manual_de_simulacion_clinica_SLACIP.pdf')" target="_blank" style="background: linear-gradient(0deg, #DBF6FF 0%, #E3E3FF 100%);")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/curso/temas/img-pdf.svg")
           .anexo__texto
-            p <b>Anexo.</b> Criterios Manual de simulación
+            p(style="color: black !important") <b style="color: black !important">Anexo.</b> Criterios Manual de simulación
     Separador 
 
     .titulo-segundo.color-secundario
@@ -98,7 +98,7 @@
       br
       |A continuación, se presentan algunos de los estándares que propone la International Nursing Association for Clinical Simulation and Learning (INACSL, 2016) para consolidar buenas prácticas en la simulación clínica. 
 
-    .tarjeta.p-4.mb-5(style="background-color: #F4F4FF; overflow: hidden;")
+    .tarjeta.p-4.mb-5(style="background: linear-gradient(0deg, rgba(71, 71, 255, 4%) 5%, white 10%,  white 90%, rgba(71, 71, 255, 4%) 96%); overflow: hidden;")
       .col-lg-11.mx-auto
         .titulo-sexto.color-acento-botones
           h5.text-small Figura 2
@@ -116,7 +116,7 @@
 
     .tarjeta.tarjeta--gris.p-4.mb-5
       PasosB.color-acento-botones
-        .row.col-lg-10.mx-auto(titulo="Valoración")
+        .row.col-lg-10.mx-auto(titulo="Valoración de necesidades")
           .col-md-6.mb-4.mb-md-auto(data-aos="fade-right")
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-4.png' style="max-width: 482px" alt="Imagen que destaca el primer criterio para garantizar buenas prácticas en la simulación clínica")
@@ -130,7 +130,7 @@
               br
               |2. Valoración del contexto y de los conocimientos, destrezas y habilidades de las personas participantes.
 
-        .row.col-lg-10.mx-auto(titulo="Objetivos")
+        .row.col-lg-10.mx-auto(titulo="Objetivos medibles")
           .col-md-6.mb-4.mb-md-auto
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-5.png' style="max-width: 482px" alt="Imagen que enfatiza la importancia del objetivo general y los objetivos específicos en el diseño de la simulación clínica")
@@ -142,7 +142,7 @@
               |Durante el desarrollo de la simulación solo deben revelarse aquellos objetivos que brinden información o contextualicen a los participantes. Y el facilitador o instructor asume la responsabilidad de guiar el logro óptimo de los objetivos en todo el proceso. 
 
         
-        .row.col-lg-10.mx-auto(titulo="Estructuración")
+        .row.col-lg-10.mx-auto(titulo="Estructuración de la simulación")
           .col-md-6.mb-4.mb-md-auto
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-6.png' style="max-width: 482px" alt="Imagen que resalta la importancia de estructurar la experiencia de simulación clínica en base al análisis de las necesidades y objetivos establecidos")
@@ -153,7 +153,7 @@
               br
               |Posteriormente, es importante seleccionar el formato de simulación: escoger una teoría de aprendizaje y una modalidad pertinente (inmersiva, realidad virtual, híbrida, etc.). Debe haber un entramado teórico, conceptual y contextual que consolide una práctica significativa y con sentido pedagógico.  
         
-        .row.col-lg-10.mx-auto(titulo="Diseño")
+        .row.col-lg-10.mx-auto(titulo="Diseño de escenarios y casos")
           .col-md-6.mb-4.mb-md-auto
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-7.png' style="max-width: 482px" alt="Imagen que destaca la importancia de diseñar casos y escenarios de simulación que cumplan con los objetivos propuestos y se adapten al contexto")
@@ -164,7 +164,7 @@
               br
               |Para garantizar una buena práctica, es fundamental la creación del guion y las señales, así como la experiencia del diseñador.
         
-        .row.col-lg-10.mx-auto(titulo="Uso")
+        .row.col-lg-10.mx-auto(titulo="Uso de diversos tipos de fidelidad")
           .col-md-6.mb-4.mb-md-auto
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-8.png' style="max-width: 482px" alt="Imagen que destaca la importancia de involucrar diferentes tipos de fidelidad en la simulación, considerando aspectos físicos, psicológicos y conceptuales que aumentan la complejidad de la práctica simulada y crean una percepción de realismo")
@@ -172,7 +172,7 @@
             h4 Uso de diversos tipos de fidelidad
             p Involucrar en la simulación diversos tipos de fidelidad teniendo en cuenta los aspectos físicos, psicológicos y conceptuales que complejizan la práctica simulada creando la percepción de realismo y posibilitando a los asistentes participar notablemente. 
         
-        .row.col-lg-10.mx-auto(titulo="Enfoque")
+        .row.col-lg-10.mx-auto(titulo="Enfoque facilitador centrado en el participante")
           .col-md-6.mb-4.mb-md-auto
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-9.png' style="max-width: 482px" alt="Imagen que resalta la importancia de diseñar un escenario simulado centrado en los participantes, teniendo en cuenta sus conocimientos y experiencias")
@@ -183,18 +183,18 @@
               br
               |Al diseñar el escenario, se debe tener en cuenta el alcance del centro de simulación, recursos, equipos, etc.
         
-        .row.col-lg-10.mx-auto(titulo="<em>Prebriefing</em>")
+        .row.col-lg-10.mx-auto(titulo="<em>Prebriefing</em> antesala de la simulación")
           .col-md-6.mb-4.mb-md-auto
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-10.png' style="max-width: 482px" alt="Imagen que destaca la importancia de desarrollar un espacio previo a la simulación donde se tengan en cuenta las expectativas y conocimientos de los participantes, y se proporcione la información necesaria para el desarrollo exitoso de la simulación")
           .col-md-6.mb-4.mb-md-0
             h4 <em>Prebriefing</em>: antesala de la simulación
-            p Debe desarrollarse un espacio anterior a la simulación en el cual se consideren las expectativas y conocimientos de los participantes y se brinde la información necesaria para el desarrollo de la simulación. Es fundamental asegurar que el <em>rebriefing</em> esté planificado y estructurado, y preferiblemente que pueda ser grabado o escrito para garantizar la estandarización de este momento. 
+            p Debe desarrollarse un espacio anterior a la simulación en el cual se consideren las expectativas y conocimientos de los participantes y se brinde la información necesaria para el desarrollo de la simulación. Es fundamental asegurar que el <em>prebriefing</em> esté planificado y estructurado, y preferiblemente que pueda ser grabado o escrito para garantizar la estandarización de este momento. 
         
-        .row.col-lg-10.mx-auto(titulo="<em>Debriefing</em>")
+        .row.col-lg-10.mx-auto(titulo="<em>Debriefing</em> retroalimentación de la simulación")
           .col-md-6.mb-4.mb-md-auto
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-11.png' style="max-width: 482px" alt="Imagen que resalta la importancia de que la fase de debriefing en la simulación esté diseñada y dirigida por un instructor o facilitador con capacitación formal en técnicas y estrategias de debriefing")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-11.png' style="max-width: 482px" alt="Imagen que resalta la importancia de que la fase de <em>debriefing</em> en la simulación esté diseñada y dirigida por un instructor o facilitador con capacitación formal en técnicas y estrategias de <em>debriefing</em>")
           .col-md-6.mb-4.mb-md-0
             h4 <em>Debriefing</em>: retroalimentación de la simulación
             p Esta fase de la simulación debe estar diseñada y dirigida por un instructor o facilitador que tenga capacitación formal en técnicas y estrategias de <em>debriefing</em>; así, se busca enriquecer el aprendizaje y asegurar la consistencia pedagógica en las experiencias simuladas. 
@@ -208,7 +208,7 @@
       |Para tener en cuenta este estándar, se deben abordar los siguientes elementos:
     
     TabsC.color-primario.mb-5
-      .py-3.py-md-4(titulo="The splendor of the mystery")
+      .py-3.py-md-4(titulo="Determinar los resultados de aprendizaje")
         .align-items-center.row.col-lg-10.mx-auto(titulo="<em>Debriefing</em>")
           .col-md-5.mb-4.mb-md-auto.mx-auto(data-aos="fade-right")
             figure
@@ -216,7 +216,7 @@
           .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
             p Los resultados de aprendizaje deben ser congruentes con la misión de la institución y el programa formativo. Además, tienen que ser orientados todo el tiempo por los objetivos de aprendizaje a lo largo de todo el escenario simulado. 
 
-      .py-3.py-md-4(titulo="The splendor of the mystery")
+      .py-3.py-md-4(titulo="Construir objetivos S.M.A.R.T")
         .align-items-center.row.col-lg-10.mx-auto(titulo="<em>Debriefing</em>")
           .col-md-5.mb-4.mb-md-auto.mx-auto
             figure
@@ -252,11 +252,11 @@
           li ●	Conozca el funcionamiento y manejo de distintos tipos de simuladores.
           li ●	Retroalimente de manera oportuna y maneje los comentarios y observaciones.
       .tarjeta.p-4(titulo="Actividades preparatorias" style="background-color: #EDF4FE")
-        p Son todas aquellas acciones que se ejecutan antes de la experiencia de simulación, en la cual el facilitador tiene por tarea brindar la información relevante para el desarrollo óptimo del ambiente. Aquí, es importante la fase del prebriefing, en la cual la orientación que brinda el instructor será fundamental para el logro de los objetivos de aprendizaje. 
+        p Son todas aquellas acciones que se ejecutan antes de la experiencia de simulación, en la cual el facilitador tiene por tarea brindar la información relevante para el desarrollo óptimo del ambiente. Aquí, es importante la fase del <em>prebriefing</em>, en la cual la orientación que brinda el instructor será fundamental para el logro de los objetivos de aprendizaje. 
       .tarjeta.p-4(titulo="Pistas y señales <br class='d-flex d-xl-none'>(predeterminadas y<br class='d-none d-md-flex'> no planificadas)" style="background-color: #EDF4FE")
         p Las pistas o señales colaboran en la orientación de la simulación para que los participantes puedan dirigir sus acciones al desarrollo de la práctica y, por consiguiente, el logro de los objetivos. Cuando son predeterminadas, deben incluirse en el diseño de la simulación a modo de previsión y anticipación de las operaciones comunes; en cambio, las no planificadas o salvavidas se dan como respuesta a acciones no anticipadas de los participantes. 
       .tarjeta.p-4(titulo="Apoyo más allá de la <br class='d-flex d-xl-none'>experiencia simulada" style="background-color: #EDF4FE")
-        p La facilitación y el papel del facilitador puede ampliarse más allá de la práctica simulada, debido a que los participantes requieren de mayor tiempo para el feedback, necesitan esclarecer situaciones clínicas o lidiar de manera personal con la situación desarrollada. 
+        p La facilitación y el papel del facilitador puede ampliarse más allá de la práctica simulada, debido a que los participantes requieren de mayor tiempo para el <em>feedback</em>, necesitan esclarecer situaciones clínicas o lidiar de manera personal con la situación desarrollada. 
     h3(data-aos="fade-left") d.	Evaluación de los participantes
 
     p.mb-5(data-aos="fade-right") La evaluación de los participantes es imprescindible para garantizar las buenas prácticas de la simulación clínica. Todas las experiencias de simulación están orientadas al logro de los objetivos, pero no se llega solo con prácticas repetitivas, sino que hay que comprobar que los resultados cumplan con el fin de la situación simulada, y esto solo es posible a través de la evaluación. 
@@ -272,7 +272,7 @@
 
       p(numero="3" titulo="Evaluación sumativa") Se enfoca en la valoración de un resultado o del logro de un objetivo en un momento particular del proceso de aprendizaje. En el contexto de la simulación, se procura emplear un formato estandarizado que permita obtener un puntaje de aprobación. Para este tipo de evaluación, se debe elegir un formato o instrumento que facilite la valoración del aprendiz y requiere también de un evaluador competente y objetivo. 
 
-      p(numero="4" titulo="Evaluación <em>High Stakes</em> o de alto nivel ") Este tipo de evaluación se centra en el proceso de aprendizaje final de un estudiante para evaluar el logro de sus objetivos de manera más global. Se ejecuta después de que el participante ha tenido distintas aproximaciones a experiencias de simulación. 
+      p(numero="4" titulo="Evaluación <em>high stakes</em> o de alto nivel ") Este tipo de evaluación se centra en el proceso de aprendizaje final de un estudiante para evaluar el logro de sus objetivos de manera más global. Se ejecuta después de que el participante ha tenido distintas aproximaciones a experiencias de simulación. 
 
     h3(data-aos="fade-left") e.	Integridad profesional
 
@@ -305,14 +305,14 @@
         p Se centra en aquellos valores y principios que conforman la integridad profesional para el desarrollo de la práctica simulada. En este contexto, se aconseja que el participante promueva actitudes y comportamientos dirigidos a ser integral.
           br
           br
-          |Además, este criterio incluye la decisión personal de desenvolverse con integridad profesional y de reconocer los comportamientos y/o actitudes que pongan en riesgo la práctica simulada, con el fin de disminuirlos y erradicarlos. 
+          |Además, este criterio incluye la decisión personal de desenvolverse con integridad profesional y de reconocer los comportamientos o actitudes que pongan en riesgo la práctica simulada, con el fin de disminuirlos y erradicarlos. 
     
     p.mb-5(data-aos="fade-right") -	<b>Seguir los estándares éticos de la profesión</b>
       br
       br
       |Cumplir con los códigos de ética, estándares profesionales, directrices o principios de la profesión, en búsqueda de la excelencia, incorporándolos al ambiente de simulación, como en la siguiente figura:
     
-    .tarjeta.p-4.mb-5(style="background-color: #F4F4FF; overflow: hidden;")
+    .tarjeta.p-4.mb-5(style="background: linear-gradient(0deg, rgba(71, 71, 255, 4%) 5%, white 10%,  white 90%, rgba(71, 71, 255, 4%) 96%); overflow: hidden;")
       .col-lg-11.mx-auto
         .titulo-sexto.color-acento-botones
           h5.text-small Figura 3
@@ -323,16 +323,13 @@
     
     .d-flex.flex-wrap.mb-5
       .col-lg-7.pe-lg-4.order-2.order-lg-1
-        p(data-aos="fade-right") <b>-	Crear y mantener ambientes seguros</b>
+        p.mb-4(data-aos="fade-right") <b>-	Crear y mantener ambientes seguros</b>
           br
           br
-          |Generar espacios de comunicación asertiva entre los participantes y promover las relaciones profesionales, de manera que se logre un feedback honesto, efectivo y respetuoso.
-          br
-          br
-          |<b>-	Operaciones</b>
-          br
-          br
-          |Para garantizar las buenas prácticas en la simulación clínica, no solo debe tenerse en cuenta el proceso formativo y pedagógico o el componente ético e integral, también es importante considerar la infraestructura, el personal y los procesos necesarios para realizar programas educativos basados en la simulación clínica. 
+          |Generar espacios de comunicación asertiva entre los participantes y promover las relaciones profesionales, de manera que se logre un <em>feedback</em> honesto, efectivo y respetuoso.
+        h3.mb-4 f.	Operaciones
+        
+        p Para garantizar las buenas prácticas en la simulación clínica, no solo debe tenerse en cuenta el proceso formativo y pedagógico o el componente ético e integral, también es importante considerar la infraestructura, el personal y los procesos necesarios para realizar programas educativos basados en la simulación clínica. 
           |En este estándar, la administración, los presupuestos y la financiación son un eje importante para apoyar el desarrollo del programa. 
           |Se recomienda tener en cuenta los siguientes procedimientos para garantizar un estándar de buenas prácticas inmersas en la simulación clínica; a continuación, se exponen:
       img.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-16.jpg" style="max-width: 505px" data-aos="fade-left" alt="representa dos aspectos clave para asegurar buenas prácticas en la simulación clínica")
@@ -350,7 +347,7 @@
               br
               |Este plan estratégico también debe implementar: un plan de desarrollo profesional para la actualización del personal; un plan sistemático para la evaluación y mejora de los procesos, así como para la modernización de los equipos o ampliación de los ambientes; un plan financiero que justifique los gastos monetarios y prevea el reemplazo de equipamientos obsoletos o dañados.
 
-        .row.col-lg-10.mx-auto(titulo="Administración del espacio")
+        .row.col-lg-10.mx-auto(titulo="Administración del <br>espacio, los recursos y <br>el personal")
           .col-md-4.mb-4.mb-md-auto
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-18.svg' style="max-width: 295px" alt="Representación gráfica de un centro de simulación clínica bien administrado")
@@ -361,7 +358,7 @@
               br
               |Asimismo, un centro de simulación clínica se conforma por personal no solamente del ámbito educativo, sino también personal administrativo, operarios, ingenieros y otro personal esencial que deben conocer con especificidad sus funciones. 
 
-        .row.col-lg-10.mx-auto(titulo="Administración de recursos")
+        .row.col-lg-10.mx-auto(titulo="Administración de los <br>recursos financieros")
           .col-md-4.mb-4.mb-md-auto
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-19.svg' style="max-width: 295px" alt=" Representación gráfica de un centro de simulación clínica bien administrado")
@@ -372,7 +369,7 @@
               br
               |Asimismo, un centro de simulación clínica se conforma por personal no solamente del ámbito educativo, sino también personal administrativo, operarios, ingenieros y otro personal esencial que deben conocer con especificidad sus funciones. 
 
-        .row.col-lg-10.mx-auto(titulo="Políticas de sostenimiento")
+        .row.col-lg-10.mx-auto(titulo="Políticas de <br>sostenimiento del <br>programa")
           .col-md-4.mb-4.mb-md-auto
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-20.svg' style="max-width: 295px" alt="Representación gráfica de las políticas de sostenimiento del programa de simulación clínica")
@@ -417,7 +414,7 @@
     
     p.mb-5(data-aos="fade-right") Teniendo en cuenta lo anterior, la simulación clínica se entiende como el aprendizaje y la enseñanza aplicados de manera integral con el desarrollo de habilidades técnicas, comunicativas o socioemocionales, que pueden verse ausentes en un ambiente tradicional o material audiovisual que, aunque facilita como elemento en el proceso formativo, no es suficiente, pero que se ve complementado con herramientas simuladas. En la siguiente figura, se mencionan algunos atributos que se recomienda tener en cuenta en las simulaciones:
 
-    .tarjeta.p-4.mb-5(style="background-color: #F4F4FF; overflow: hidden;")
+    .tarjeta.p-4.mb-5(style="background: linear-gradient(0deg, rgba(71, 71, 255, 4%) 5%, white 10%,  white 90%, rgba(71, 71, 255, 4%) 96%); overflow: hidden;")
       .col-lg-11.mx-auto
         .titulo-sexto.color-acento-botones
           h5.text-small Figura 4
@@ -430,7 +427,7 @@
       br
       |El siguiente video es un ejemplo del uso de los simuladores como herramienta de enseñanza para el área de la salud (Ciencia UNAM, 2019):
     
-    .tarjeta.color-primario.p-3.col-lg-10.mx-auto(style="background: linear-gradient(0deg, rgba(99,242,228,1) 0%, rgba(71,71,255,1) 100%);")
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto(style="background: linear-gradient(0deg, #DBF6FF 0%, #E3E3FF 100%);")
       .row.justify-content-around.align-items-center.py-4.px-3
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-right")
@@ -454,7 +451,7 @@
       img.col-md-4.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-24.svg" style="max-width: 295px" data-aos="fade-right" alt="Imagen representativa de la simulación clínica en acción")
       p.col-md-8.ps-md-4(data-aos="fade-left") Todas las experiencias basadas en la simulación han permitido generar reflexiones, cuestionamientos y conclusiones acerca de la práctica clínica. De esta manera, se ha demostrado que la simulación clínica permite aumentar el conocimiento teórico-práctico, las destrezas y habilidades técnicas, además de la autoconfianza, el buen rendimiento, la gestión del riesgo y la seguridad del paciente, proceso en el cual se destaca la evaluación continua de los procesos enfocados a la mejora de los diferentes escenarios de cada programa que forma talento humano en salud. 
 
-    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(0deg, rgba(99,242,228,1) 0%, rgba(71,71,255,1) 100%);")
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(0deg, #DBF6FF 0%, #E3E3FF 100%);")
       .row.justify-content-around.align-items-center.py-4.px-3
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-right")
@@ -467,7 +464,7 @@
                 span Ver
                 img.ms-4(src="@/assets/curso/temas/decorador-2.svg" style="max-width: 40px")
       
-    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(0deg, rgba(99,242,228,1) 0%, rgba(71,71,255,1) 100%);")
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(0deg, #DBF6FF 0%, #E3E3FF 100%);")
       .row.justify-content-around.align-items-center.py-4.px-3
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-right")
@@ -480,7 +477,7 @@
                 span Ver
                 img.ms-4(src="@/assets/curso/temas/decorador-2.svg" style="max-width: 40px")
 
-    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(0deg, rgba(99,242,228,1) 0%, rgba(71,71,255,1) 100%);")
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(0deg, #DBF6FF 0%, #E3E3FF 100%);")
       .row.justify-content-around.align-items-center.py-4.px-3
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-right")
@@ -493,7 +490,7 @@
                 span Ver
                 img.ms-4(src="@/assets/curso/temas/decorador-2.svg" style="max-width: 40px")
 
-    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(0deg, rgba(99,242,228,1) 0%, rgba(71,71,255,1) 100%);")
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(0deg, #DBF6FF 0%, #E3E3FF 100%);")
       .row.justify-content-around.align-items-center.py-4.px-3
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-right")
@@ -506,7 +503,7 @@
                 span Ver
                 img.ms-4(src="@/assets/curso/temas/decorador-2.svg" style="max-width: 40px")
 
-    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-5(style="background: linear-gradient(0deg, rgba(99,242,228,1) 0%, rgba(71,71,255,1) 100%);")
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-5(style="background: linear-gradient(0deg, #DBF6FF 0%, #E3E3FF 100%);")
       .row.justify-content-around.align-items-center.py-4.px-3
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-right")
