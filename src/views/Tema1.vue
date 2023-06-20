@@ -32,9 +32,10 @@
     .tabla-a.color-primario.mb-5(data-aos="fade-right")
       table
         caption Nota. Tomado de Xunta (s. f.)
-        thead
+        thead(data-aos="fade-right")
           tr
-            th(colspan="2") IMPORTANCIA DE LA SIMULACIÓN EN LA FORMACIÓN EN SALUD
+            th Evaluación sumativa
+            th Evaluación formativa
         tbody
           tr
             td Mide, mediante controles y exámenes, lo que los alumnos han aprendido, imputando a los centros la responsabilidad del rendimiento de sus alumnos.
@@ -170,7 +171,7 @@
               img.mx-auto(src='@/assets/curso/temas/tema1/img-8.png' style="max-width: 482px" alt="Imagen que destaca la importancia de involucrar diferentes tipos de fidelidad en la simulación, considerando aspectos físicos, psicológicos y conceptuales que aumentan la complejidad de la práctica simulada y crean una percepción de realismo")
           .col-md-6.mb-4.mb-md-0
             h4 Uso de diversos tipos de fidelidad
-            p Involucrar en la simulación diversos tipos de fidelidad teniendo en cuenta los aspectos físicos, psicológicos y conceptuales que complejizan la práctica simulada creando la percepción de realismo y posibilitando a los asistentes participar notablemente. 
+            p Involucrar en la simulación diversos tipos de fidelidad teniendo en cuenta los aspectos físicos, psicológicos y conceptuales que complejizan la práctica simulada creando la percepción de realismo y posibilitando a los asistentes a participar notablemente. 
         
         .row.col-lg-10.mx-auto(titulo="Enfoque facilitador centrado en el participante")
           .col-md-6.mb-4.mb-md-auto
@@ -231,7 +232,7 @@
               br
               |<b>Alcanzables</b>: según el nivel de los participantes y su viabilidad.
               br
-              |<b>Realistas</b>: relacionados con el programa formativo, el contexto de las prácticas clínicas, normas guías y literatura.
+              |<b>Realistas</b>: relacionados con el programa formativo, el contexto de las prácticas clínicas, normas, guías y literatura.
               br
               |<b>Basados en etapas</b>: en el marco de un tiempo específico y un modelo y consistentes con los resultados esperados. 
 
@@ -253,9 +254,9 @@
           li ●	Retroalimente de manera oportuna y maneje los comentarios y observaciones.
       .tarjeta.p-4(titulo="Actividades preparatorias" style="background-color: #EDF4FE")
         p Son todas aquellas acciones que se ejecutan antes de la experiencia de simulación, en la cual el facilitador tiene por tarea brindar la información relevante para el desarrollo óptimo del ambiente. Aquí, es importante la fase del <em>prebriefing</em>, en la cual la orientación que brinda el instructor será fundamental para el logro de los objetivos de aprendizaje. 
-      .tarjeta.p-4(titulo="Pistas y señales <br class='d-flex d-xl-none'>(predeterminadas y<br class='d-none d-md-flex'> no planificadas)" style="background-color: #EDF4FE")
+      .tarjeta.p-4(titulo="Pistas y señales <br class='d-flex d-xl-none'>(predeterminadas y<br> no planificadas)" style="background-color: #EDF4FE")
         p Las pistas o señales colaboran en la orientación de la simulación para que los participantes puedan dirigir sus acciones al desarrollo de la práctica y, por consiguiente, el logro de los objetivos. Cuando son predeterminadas, deben incluirse en el diseño de la simulación a modo de previsión y anticipación de las operaciones comunes; en cambio, las no planificadas o salvavidas se dan como respuesta a acciones no anticipadas de los participantes. 
-      .tarjeta.p-4(titulo="Apoyo más allá de la <br class='d-flex d-xl-none'>experiencia simulada" style="background-color: #EDF4FE")
+      .tarjeta.p-4(titulo="Apoyo más allá de la <br class='d-flex d-xxl-none'>experiencia simulada" style="background-color: #EDF4FE")
         p La facilitación y el papel del facilitador puede ampliarse más allá de la práctica simulada, debido a que los participantes requieren de mayor tiempo para el <em>feedback</em>, necesitan esclarecer situaciones clínicas o lidiar de manera personal con la situación desarrollada. 
     h3(data-aos="fade-left") d.	Evaluación de los participantes
 
@@ -327,6 +328,10 @@
           br
           br
           |Generar espacios de comunicación asertiva entre los participantes y promover las relaciones profesionales, de manera que se logre un <em>feedback</em> honesto, efectivo y respetuoso.
+        p.mb-4(data-aos="fade-right") <b>-	Exigir confidencialidad y políticas de privacidad</b>
+          br
+          br
+          |este criterio tiene por objetivo garantizar la integridad del participante frente a lo ocurrido en la simulación, asegurar los documentos de tipo escrito o audiovisual, compartirlos solo con aquellos individuos que tengan un interés académico legítimo o, en algunos casos, destruirlos. Este criterio prioriza la conformación y aceptación de políticas de confidencialidad de la práctica simulada.
         h3.mb-4 f.	Operaciones
         
         p Para garantizar las buenas prácticas en la simulación clínica, no solo debe tenerse en cuenta el proceso formativo y pedagógico o el componente ético e integral, también es importante considerar la infraestructura, el personal y los procesos necesarios para realizar programas educativos basados en la simulación clínica. 
@@ -363,7 +368,7 @@
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-19.svg' style="max-width: 295px" alt=" Representación gráfica de un centro de simulación clínica bien administrado")
           .col-md-8.mb-4.mb-md-0
-            h4 Administración del espacio, los recursos y el personal 
+            h4 Administración de los recursos financieros
             p Para que un centro de simulación clínica sea exitoso, debe contar con una adecuada administración de sus espacios, los recursos y el personal. Es importante que se puedan cuidar los bienes y equipamientos que conforman el ambiente de simulación, siempre generando la limpieza de los espacios y el mantenimiento oportuno de los equipos empleados. 
               br
               br
