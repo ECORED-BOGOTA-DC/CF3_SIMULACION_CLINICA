@@ -369,10 +369,10 @@
               img.mx-auto(src='@/assets/curso/temas/tema1/img-19.svg' style="max-width: 295px" alt=" Representación gráfica de un centro de simulación clínica bien administrado")
           .col-md-8.mb-4.mb-md-0
             h4 Administración de los recursos financieros
-            p Para que un centro de simulación clínica sea exitoso, debe contar con una adecuada administración de sus espacios, los recursos y el personal. Es importante que se puedan cuidar los bienes y equipamientos que conforman el ambiente de simulación, siempre generando la limpieza de los espacios y el mantenimiento oportuno de los equipos empleados. 
+            p Para asegurar buenas prácticas en el manejo de los recursos financieros en el contexto de la simulación clínica, se deben contabilizar los gastos anuales. Es común que los centros o instituciones dedicados a la simulación no generen ingresos, por ello, es importante que se puedan considerar actividades que posibiliten obtener ingresos monetarios, ya sea por medio de prestación de servicios externos, programas de formación continua o donaciones y préstamos.
               br
               br
-              |Asimismo, un centro de simulación clínica se conforma por personal no solamente del ámbito educativo, sino también personal administrativo, operarios, ingenieros y otro personal esencial que deben conocer con especificidad sus funciones. 
+              |Planificar y ejecutar un presupuesto operativo que incluya los costos fijos (contratos de mantenimiento, personal permanente) y los costos variables (dotaciones, contratación de especialistas, pacientes estandarizados). 
 
         .row.col-lg-10.mx-auto(titulo="Políticas de <br>sostenimiento del <br>programa")
           .col-md-4.mb-4.mb-md-auto
